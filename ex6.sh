@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo "1 - Exibir status da utilização das partições do sistema;
+2 - Exibir relação de usuários logados;
+3 - Exibir data/hora;
+4 - Sair"
+
+opcao=0
+
+while [ $opcao -ne 4 ];
+do
+  echo -n "Informe sua opção: "
+  read opcao
+  case $opcao in
+    1) df -h ;;
+    2) who ;;
+    3) date ;;
+    4) exit ;;
+  esac
+done
+
