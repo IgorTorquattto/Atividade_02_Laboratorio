@@ -9,4 +9,3 @@ ls -l $var1 | while read linha; do
         echo $linha  | awk '{print $9}'
     fi
 done
-

@@ -18,4 +18,3 @@ do
     4) exit ;;
   esac
 done
-

@@ -8,4 +8,3 @@ if [ -d $pasta ]; then
 else
 	echo "Diretório não existe, usuário não cadastrado."
 fi
-

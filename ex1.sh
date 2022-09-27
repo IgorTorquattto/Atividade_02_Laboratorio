@@ -12,4 +12,3 @@ else
 fi
 somador=$(($var1+$var2))
 echo "Soma: $somador "
-
