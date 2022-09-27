@@ -3,7 +3,6 @@
 echo "Digite o número da questão que você deseja executar: [1,6]"
 read questao
 
-read v1 v2 v3 v4
 case $questao in
 1) bash ex1.sh ;;
 2) echo "dois" ;;
