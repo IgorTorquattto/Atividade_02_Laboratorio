@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Informe o nome de um usuário:"
+echo "Informe o nome de um usuário: "
 read nome_usuario
 pasta="home/$nome_usuario"
 

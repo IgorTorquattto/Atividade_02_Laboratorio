@@ -1,6 +1,8 @@
 #!/bin/bash
+echo "Digite um número: "
+read var1
 i=0 
-while [ $i -le $1 ] 
+while [ $i -le $var1 ] 
 do 
     resto=`expr $i % 2` 
     if [ $resto -eq 0 ]; then 

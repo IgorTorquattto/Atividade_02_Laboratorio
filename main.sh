@@ -5,15 +5,17 @@ read questao
 
 case $questao in
 1) bash ex1.sh ;;
-2) echo "dois" ;;
-3) echo "tres" ;;
-4) echo "quatro" ;;
-5) echo "cinco" ;;
-6) echo "seis" ;;
-7) echo "sete" ;;
-8) echo "oito" ;;
-9) echo "nove" ;;
-10) echo "dez" ;;
-*) echo nao ;;
-esac
+2) bash ex2.sh ;;
+3) bash ex3.sh ;;
+4) bash ex4.sh ;;
+5) bash ex5.sh ;;
+6) bash ex6.sh ;;
 
+
+
+
+
+
+
+*) echo "Número da questão é inválido." ;;
+esac
