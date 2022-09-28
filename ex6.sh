@@ -16,5 +16,6 @@ do
     2) who ;;
     3) date ;;
     4) exit ;;
+    *) echo "Opção não disponível. Tente outra vez."
   esac
 done
