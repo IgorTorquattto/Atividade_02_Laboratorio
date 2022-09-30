@@ -2,15 +2,14 @@
 
 * **Descrição**: Projeto para a cadeira de Laboratório de programação, do curso de Ciências da Computação na UFCA, de 2022.1. 🖥️🏫
 
-* **Professor:** Ramon Nepomuceno.
+* **Professor:** Ramon Nepomuceno.👨‍🏫
 
-* **Integrantes:** Cícero Igor, Érick de Brito.
+* **Integrantes:** Cícero Igor, Érick de Brito.👨‍🎓
   
-* **Modo de Usar:** O usuário deve executar o arquivo *main.sh* e informar o número da questão que deseja que o programa execute.
+* **Modo de Usar:** O usuário deve executar o arquivo *main.sh* e informar o número da questão que deseja que o programa execute.🖱️⌨️
 ---
 
-
-### Questões:
+### ㅤㅤQuestões: ❔
 1. Elaborar um script que receba dois números e informe o maior dos números recebidos. Além disso, deve ser exibido o somatório dos valores.
 
 2. Elaborar um script que solicite a informação de um nome de usuário e verificar se o nome informado é um usuário válido no sistema.
@@ -26,5 +25,21 @@
    * 2-Exibir relaçãode usuários logados.
    * 3-Exibir data e hota.
    * 4-Sair.
+
+7. Elaborar um script que a partir da informação dos dias da semana em que haverá aula no laboratório, produza todas as respectivas datas do ano em que serão ministradas as aulas.
+
+8. Elaborar um script que renomeie cada arquivo texto de um diretório que estão nomeados sem qualquer critério. O novo nome do arquivo deve ser igual ao da primeira palavra que está contido no próprio arquivo texto.
+
+9. Elaborar um script que receba uma lista de palavras e exiba, como resultado, essas palavras ordenadas.
+
+10. Elaborar um script que receba palavras interativamente e , a cada palavra recebida, exiba, como resultado, essas palavras ordenadas. Ao ser informada a palavra "sair", o programa deve ser finalizado.
+
+11. Elaborar um script que realize operações aritméticas básicas (Soma,Subtração,Divisão e Multiplicação), recebendo os operadores e os operandos informados pelo usuário.
+
+12. Elaborar um script que apresente na tela os usuários cadastrados no sistema e os seus respectivos diretórios home.
+
+13. Elaborar um script que informe qual é o shell mais utilizado. Tendo em vista que, uma das informações armazenadas no arquivo /etc/passwd é o shell utilizado por cada usuário do sistema.
+
+
 
 
