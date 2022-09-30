@@ -1,10 +1,11 @@
 #!/bin/bash
-echo "Informe o nome de um usuário: "
-read nome_usuario
-pasta="home/$nome_usuario"
 
-if [ -d $pasta ]; then
-	echo "Diretório existe, usuário cadastrado."
+echo -n "Informe o nome do usuário: "
+read var1
+
+if [[ -n $(cat /etc/passwd | grep -E 'home|root' | cut -d : -f 1| grep -w -io $var1) ]]
+then
+  echo "Usuário $var1 válido."
 else
-	echo "Diretório não existe, usuário não cadastrado."
+  echo "Usuário $var1 inválido."
 fi
