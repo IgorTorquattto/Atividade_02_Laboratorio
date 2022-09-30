@@ -6,7 +6,7 @@
 
 * **Integrantes:** Cícero Igor, Érick de Brito.👨‍🎓
   
-* **Modo de Usar:** O usuário deve executar o arquivo *main.sh* e informar o número da questão que deseja que o programa execute.🖱️⌨️
+* **Modo de Usar:** O usuário, através do terminal deve executar o arquivo *main.sh*, que representa o sistema do "menu". Ao solicitado, deve-se informar o número da questão que deseja que o programa execute, e assim seguir os passos informados pela questão.🖱️⌨️
 ---
 
 ### ㅤㅤQuestões: ❔
