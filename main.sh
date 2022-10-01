@@ -1,9 +1,11 @@
 #!/bin/bash
 
-echo "Digite o número da questão que você deseja executar: [1,13]"
+echo "Digite o número da questão que você deseja executar: [1,13] 
+digite 0 para ver a descrição de cada questão"
 read questao
 
 case $questao in
+0) cat README.md ;;
 1) bash ex1.sh ;;
 2) bash ex2.sh ;;
 3) bash ex3.sh ;;
