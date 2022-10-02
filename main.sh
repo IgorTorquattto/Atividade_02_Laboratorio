@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo "Digite o número da questão que você deseja executar: [1,13] 
-digite 0 para ver a descrição de cada questão"
+echo "Digite o número da questão que você deseja executar [1,13],ou digite 0 para ver os enunciados das questões."
 read questao
 
 case $questao in

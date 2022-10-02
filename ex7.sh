@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo "por favor, me informe o intervalo das aulas. Qual o primeiro dia de aula? (ano completo/mes/dia): "
+echo "Por favor, me informe o intervalo das aulas. Qual o primeiro dia de aula? (ano completo/mes/dia): "
 read PRIMEIRA
-echo "certo. Qual a data do ultimo dia de aula (no mesmo formato)? "
+echo "Certo. Qual a data do ultimo dia de aula (no mesmo formato)? "
 read ULTIMA
 echo "Agora.. me informe quais os dias em que existe aula (exemplo: 1,3 sendo 1 a segunda)"
 read QDIAS
