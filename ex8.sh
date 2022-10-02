@@ -1,12 +1,33 @@
 #!/bin/bash
 #Passar o caminho:
-echo "Qual o diretório que estão os arquivos texto? "
-read diretorio
-cd diretorio
-for RENOMEIA in $(ls *.txt)
-do
- for PRIMEIRA in $(cat $RENOMEIA | cut -d&quot; &quot; -f1)
- do
- mv $RENOMEIA $PRIMEIRA.txt
- done
-done
+echo "Digite o caminho: "
+read path
+
+if [[ -z $path ]];then
+	exit
+else
+	if [ "$(file -b $path)" == "directory" ]; then
+		dir=$(pwd)
+		while [ "$dir" != "/" ]; do
+			cd ..
+			dir=$(pwd)
+		done
+
+		cd "$path"
+
+		for file in $(ls)
+		do
+			if [[ -d $file || $file = $BASH_SOURCE || -z $Ford ]]
+			then
+				continue
+			fi
+			palavra=$(head -n1 $file | cut -d ' ' -f 1)
+
+			mv $file $palavra".txt"
+		done
+		echo "Todos os arquivos do diretório '$path' foram renomeados."
+	else
+		echo "Erro" 
+		echo "Ocorreu um erro! '$path' Não é um diretório."
+	fi
+fi
